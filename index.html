@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Modern Dashboard</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+    </head>
+    <body>
+        <div class="dashboard">
+            <nav class="sidebar">
+                <div class="logo">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Dashboard</span>
+                </div>
+                <ul class="nav-links">
+                    <li class="nav-item active" data-section="overview">
+                        <i class="fas fa-home"></i>
+                        <span>Overview</span>
+                    </li>
+                    <li class="nav-item" data-section="embassy">
+                        <i class="fas fa-building"></i>
+                        <span>US Embassy Founded Training</span>
+                    </li>
+                    <li class="nav-item" data-section="lab">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Lab Distribution Mapping</span>
+                    </li>
+                    <li class="nav-item" data-section="training">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Training Programme</span>
+                    </li>
+                    <li class="nav-item" data-section="financial">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Financial Data</span>
+                    </li>
+                    <li class="nav-item" data-section="logistics">
+                        <i class="fas fa-truck"></i>
+                        <span>Logistics</span>
+                    </li>
+                </ul>
+            </nav>
+            <main class="content">
+                <div class="section active" id="overview">
+                    <h1>Overview</h1>
+                    <div class="welcome-banner">
+                        <div class="banner-content">
+                            <h2>STEMpower Initiative</h2>
+                            <p>
+                                Empowering African youth through hands-on STEM
+                                education since 2017
+                            </p>
+                        </div>
+                        <div class="banner-stats">
+                            <div class="stat-badge">
+                                <i class="fas fa-flask"></i>
+                                <span>133 Centers</span>
+                            </div>
+                            <div class="stat-badge">
+                                <i class="fas fa-users"></i>
+                                <span>50K+ Students</span>
+                            </div>
+                            <div class="stat-badge">
+                                <i class="fas fa-globe-africa"></i>
+                                <span>3 Countries</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="overview-grid">
+                        <div class="mission-section">
+                            <h2><i class="fas fa-bullseye"></i> Our Mission</h2>
+                            <div class="mission-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>
+                                    Inside Every Child is a Scientist. Nurture
+                                    that Scientist, you will change the world.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info">
+                            <h2>
+                                <i class="fas fa-map-marker-alt"></i> Global
+                                Offices
+                            </h2>
+                            <div class="office-grid">
+                                <div class="office-card">
+                                    <h3>
+                                        <i class="fas fa-building"></i> USA
+                                        Office
+                                    </h3>
+                                    <p>Marblehead, MA 01945</p>
+                                    <p>
+                                        <i class="fas fa-phone"></i> (+1)
+                                        978-210-1055
+                                    </p>
+                                </div>
+                                <div class="office-card">
+                                    <h3>
+                                        <i class="fas fa-building"></i> Ethiopia
+                                        Office
+                                    </h3>
+                                    <p>Addis Ababa, Ethiopia</p>
+                                    <p>
+                                        <i class="fas fa-phone"></i> (+251) 11
+                                        639-3062
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="embassy">
+                    <h1>US Embassy Founded Training</h1>
+
+                    <div class="embassy-container">
+                        <div class="embassy-stats">
+                            <div class="stat-box">
+                                <i class="fas fa-users-class"></i>
+                                <div class="stat-content">
+                                    <span class="stat-number">1,200+</span>
+                                    <span class="stat-label"
+                                        >Teachers Trained</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="stat-box">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div class="stat-content">
+                                    <span class="stat-number">25,000+</span>
+                                    <span class="stat-label"
+                                        >Students Impacted</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="stat-box">
+                                <i class="fas fa-calendar-check"></i>
+                                <div class="stat-content">
+                                    <span class="stat-number">48</span>
+                                    <span class="stat-label"
+                                        >Training Sessions</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="training-programs">
+                            <div class="program-box">
+                                <div class="program-icon">
+                                    <i class="fas fa-microscope"></i>
+                                </div>
+                                <div class="program-content">
+                                    <h3>STEM Education</h3>
+                                    <p>
+                                        Hands-on training in practical STEM
+                                        education
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program-box">
+                                <div class="program-icon">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                </div>
+                                <div class="program-content">
+                                    <h3>Teacher Development</h3>
+                                    <p>
+                                        Professional development for STEM
+                                        educators
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="lab">
+                    <h1>Lab Distribution Mapping</h1>
+                    <div class="lab-stats">
+                        <div class="stat-card">
+                            <h3>Total STEM Centers</h3>
+                            <p class="stat-number">133</p>
+                            <p class="stat-desc">
+                                Hands-on STEM Centers across Sub-Saharan Africa
+                            </p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Countries</h3>
+                            <div class="country-list">
+                                <span class="country-tag">Ethiopia</span>
+                                <span class="country-tag">Rwanda</span>
+                                <span class="country-tag">South Sudan</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lab-features">
+                        <h2>Our Model</h2>
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <i class="fas fa-microscope"></i>
+                                <h3>Hands-on Learning</h3>
+                                <p>
+                                    Practical experience with real scientific
+                                    equipment
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-robot"></i>
+                                <h3>Modern Technology</h3>
+                                <p>Access to cutting-edge STEM resources</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-users"></i>
+                                <h3>Community Impact</h3>
+                                <p>
+                                    Engaging local communities in STEM education
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="training">
+                    <h1>Training Programme</h1>
+                    <div class="program-grid">
+                        <div class="program-card">
+                            <div class="program-header">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>STEM-TV</h3>
+                            </div>
+                            <p>
+                                Digital learning platform providing access to
+                                STEM education resources
+                            </p>
+                            <a href="#" class="program-link"
+                                >Learn More <i class="fas fa-arrow-right"></i
+                            ></a>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-header">
+                                <i class="fas fa-tools"></i>
+                                <h3>FabLab Products</h3>
+                            </div>
+                            <p>
+                                Hands-on fabrication laboratory experience for
+                                practical learning
+                            </p>
+                            <a href="#" class="program-link"
+                                >Explore <i class="fas fa-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="financial">
+                    <h1>Financial Data</h1>
+
+                    <div class="finance-dashboard">
+                        <div class="finance-summary">
+                            <div class="summary-card">
+                                <i class="fas fa-hand-holding-usd"></i>
+                                <div class="summary-content">
+                                    <h3>Annual Budget</h3>
+                                    <p class="amount">$2.5M</p>
+                                    <span class="trend positive"
+                                        >+15% from 2022</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="summary-card">
+                                <i class="fas fa-school"></i>
+                                <div class="summary-content">
+                                    <h3>Per Center Cost</h3>
+                                    <p class="amount">$18.7K</p>
+                                    <span class="trend">Annual Average</span>
+                                </div>
+                            </div>
+                            <div class="summary-card">
+                                <i class="fas fa-users"></i>
+                                <div class="summary-content">
+                                    <h3>Student Impact</h3>
+                                    <p class="amount">$50</p>
+                                    <span class="trend">Per Student</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="registration-info">
+                            <h2>
+                                <i class="fas fa-file-contract"></i>
+                                Registration Details
+                            </h2>
+                            <div class="registration-grid">
+                                <div class="reg-card">
+                                    <h3>USA</h3>
+                                    <p>501c3 EIN 83-2778390</p>
+                                </div>
+                                <div class="reg-card">
+                                    <h3>Ethiopia</h3>
+                                    <p>4456</p>
+                                </div>
+                                <div class="reg-card">
+                                    <h3>Rwanda</h3>
+                                    <p>120121730</p>
+                                </div>
+                                <div class="reg-card">
+                                    <h3>South Sudan</h3>
+                                    <p>3863</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="logistics">
+                    <h1>Logistics</h1>
+                    <div class="partners-section">
+                        <h2>Our Partners</h2>
+                        <div class="partners-grid">
+                            <div class="partner-card">
+                                <i class="fas fa-building"></i>
+                                <h3>Educational Partners</h3>
+                                <ul>
+                                    <li>Partners in Education Ethiopia</li>
+                                    <li>Ministry of Education</li>
+                                    <li>
+                                        Ministry of Science and Higher Education
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="partner-card">
+                                <i class="fas fa-truck"></i>
+                                <h3>Logistics Partners</h3>
+                                <ul>
+                                    <li>DHL</li>
+                                    <li>SmartAID</li>
+                                    <li>Tebita Ambulance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
