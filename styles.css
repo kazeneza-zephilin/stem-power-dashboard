@@ -96,6 +96,17 @@
     font-weight: 500;
 }
 
+.nav-item .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-item:hover .nav-link {
+    color: #3498db;
+}
+
 /* Mobile responsive styles */
 @media (max-width: 768px) {
     .sidebar {
@@ -117,6 +128,10 @@
 
     .nav-item i {
         font-size: 20px;
+    }
+
+    .nav-item .nav-link {
+        display: none;
     }
 }
 
@@ -839,4 +854,25 @@ h1 {
         text-align: center;
         padding: 20px;
     }
+}
+
+.lab-mapping {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.powerbi-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #0078d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.powerbi-link:hover {
+    background-color: #005a9e;
 }
